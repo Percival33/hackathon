@@ -110,3 +110,7 @@ i {
 .clearAll:hover {
   color: lightcoral;
 }
+
+#form {
+  background-color: red;
+}
