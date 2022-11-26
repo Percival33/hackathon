@@ -8,12 +8,18 @@ docker run -d --name hackathonmongo -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME
 ```
 *******
 
-> *Niewielu jest przygotowanych do walki, większość jest przygotowana na to że będą walczyć inni.*
+> _Niewielu jest przygotowanych do walki, większość jest przygotowana na to że będą walczyć inni._
 
     ~Sun Tzu, Sztuka Wojny
 
-> *Rynek nigdy nie jest oczywisty. Jest stworzony tak, by oszukiwać większość ludzi przez większość czasu.*
+> _Rynek nigdy nie jest oczywisty. Jest stworzony tak, by oszukiwać większość ludzi przez większość czasu._
 
     ~Jesse Livermore
 
-*******
+---
+
+### Linki
+
+[quiz-repo]
+
+[quiz-repo]: (https://github.com/sridharbandi/react-quiz.git)
