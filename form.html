@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>GS Division kwiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .field {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* grid-template-rows: 4;
+        grid-template-columns: 4; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h1 style="text-align: center"><img src="g.png" alt="" /></h1>
+        <h2 style="text-align: center">
+          Please input your data to start quiz and collect a gadget!
+        </h2>
+        <h3 style="text-align: center"></h3>
+        <ul>
+          <li class="field">
+            <label class="label" for="a" id="a_text">First Name</label>
+            <input
+              class="option"
+              type="text"
+              name="answer"
+              id="a"
+              class="answer"
+            />
+          </li>
+          <li class="field">
+            <label class="label" for="b" id="b_text">Last Name</label>
+            <input
+              class="option"
+              type="text"
+              name="answer"
+              id="b"
+              class="answer"
+            />
+          </li>
+          <li class="field">
+            <label class="label" for="c" id="c_text">E-mail:</label>
+            <input
+              class="option"
+              type="email"
+              name="answer"
+              id="c"
+              class="answer"
+            />
+          </li>
+          <li class="field">
+            <label class="label" for="pet-select" id="d_text">Sex:</label>
+            <select class="option" name="pets" id="pet-select">
+              <option value="">--Please choose an option--</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Other">Other</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Start a quiz!</button>
+    </div>
+  </body>
+</html>
