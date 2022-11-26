@@ -1,20 +1,21 @@
 package com.hackathon.hackathon.model;
 
 import lombok.Builder;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.List;
 import java.util.Map;
 
 @Builder
-@Document(collection = "users")
-public record User(
-        @Id Long uid,
-        String city,
-        String date,
-        String firstName,
-        String lastName,
-        Gender gender,
-        Map<String, List<String>> userTraits
-) { }
+@Getter
+@Setter
+public class User {
+    private Integer uid;
+    private String city;
+    private String date;
+    private String firstName;
+    private String lastName;
+    private Gender gender;
+    private Map<String, List<String>> userTraits;
+}

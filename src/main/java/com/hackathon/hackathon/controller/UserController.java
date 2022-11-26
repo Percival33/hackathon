@@ -18,14 +18,14 @@ public class UserController {
     }
 
     @PostMapping("/generateUid")
-    public ResponseEntity<Long> generateUid() {
-        Long uid = userService.generateUid();
+    public ResponseEntity<Integer> generateUid() {
+        Integer uid = userService.generateUid();
 
         return ResponseEntity.ok(uid);
     }
 
     @PostMapping("/updateInfo")
-    public ResponseEntity<Void> updateInfo(@RequestHeader Long uid, @RequestParam String firstName,
+    public ResponseEntity<Void> updateInfo(@RequestHeader Integer uid, @RequestParam String firstName,
                                            @RequestParam String lastName, @RequestParam Gender gender) {
         userService.updatePersonalData(uid, firstName, lastName, gender);
 
