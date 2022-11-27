@@ -11,7 +11,16 @@ body {
     #bdc3c7
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: Arial, Helvetica, sans-serif;
+  color: #343a40;
 }
+
+.high {
+  color: #c1666b;
+}
+.high1 {
+  color: #731dd8;
+}
+
 .hello {
   opacity: 1 !important;
 }
@@ -45,6 +54,7 @@ body {
   transform: scale(0.2) !important;
 }
 .gallery {
+  margin: 0 5%;
   display: grid;
   grid-column-gap: 8px;
   grid-row-gap: 8px;
