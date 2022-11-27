@@ -186,7 +186,7 @@ ul li {
 ul li label {
   cursor: pointer;
 }
-button {
+a {
   background-color: #03cae4;
   color: #fff;
   border: none;
@@ -196,11 +196,15 @@ button {
   font-size: 1.1rem;
   font-family: inherit;
   padding: 1.3rem;
+  text-decoration: none;
+  text-align: center;
 }
-button:hover {
+a:hover {
   background-color: #04adc4;
+  text-decoration: none;
+  color: #fff;
 }
-button:focus {
+a:focus {
   outline: none;
   background-color: #44b927;
 }
